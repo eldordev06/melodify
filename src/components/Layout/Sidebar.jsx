@@ -11,14 +11,14 @@ export default function Sidebar() {
         />
       </a>
       <div className="mb-[52px]">
-        <SidebarItem itemName="home" isActive={true} />
-        <SidebarItem itemName="search" />
-        <SidebarItem itemName="library" />
+        <SidebarItem itemName="home" iconName="home" isActive={true} />
+        <SidebarItem itemName="search" iconName="search" />
+        <SidebarItem itemName="library"  />
       </div>
       <div className="mb-10">
-        <SidebarItem itemName="create-playlist" />
-        <SidebarItem itemName="liked-songs" />
-        <SidebarItem itemName="your-episodes" />
+        <SidebarItem itemName="create-playlist" iconName="create-playlist" />
+        <SidebarItem itemName="liked-songs" iconName="liked-songs" />
+        <SidebarItem itemName="your-episodes" iconName="your-episodes" />
       </div>
     </aside>
   );
