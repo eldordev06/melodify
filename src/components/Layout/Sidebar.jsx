@@ -10,16 +10,16 @@ export default function Sidebar() {
           className="w-[165px] h-[50px] object-contain"
         />
       </a>
-      <div className="mb-[52px]">
+      <ul className="mb-[52px]">
         <SidebarItem itemName="home" iconName="home" isActive={true} />
         <SidebarItem itemName="search" iconName="search" />
         <SidebarItem itemName="library" iconName="library" />
-      </div>
-      <div className="mb-10">
+      </ul>
+      <ul className="mb-10">
         <SidebarItem itemName="create-playlist" iconName="create-playlist" />
         <SidebarItem itemName="liked-songs" iconName="liked-songs" />
         <SidebarItem itemName="your-episodes" iconName="your-episodes" />
-      </div>
+      </ul>
     </aside>
   );
 }

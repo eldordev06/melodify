@@ -17,7 +17,7 @@ export default function SidebarItem({
     }
 
     return (
-      <div
+      <li
         className={`flex gap-6 items-center px-5 py-3 ${isActive ? "bg-[#282828]" : ""} rounded-md cursor-pointer hover:bg-[#282828] transition select-none`}
       >
         {iconName ? (
@@ -30,7 +30,7 @@ export default function SidebarItem({
           ""
         )}
         <span className="capitalize">{txt}</span>
-      </div>
+      </li>
     );
   } else {
     console.log("You did not provide enough data :(");
