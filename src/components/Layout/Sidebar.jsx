@@ -13,7 +13,7 @@ export default function Sidebar() {
       <div className="mb-[52px]">
         <SidebarItem itemName="home" iconName="home" isActive={true} />
         <SidebarItem itemName="search" iconName="search" />
-        <SidebarItem itemName="library"  />
+        <SidebarItem itemName="library" iconName="library" />
       </div>
       <div className="mb-10">
         <SidebarItem itemName="create-playlist" iconName="create-playlist" />

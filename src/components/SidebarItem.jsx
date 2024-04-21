@@ -6,8 +6,11 @@ export default function SidebarItem({
 }) {
   if (itemName || iconName) {
     let txt = "";
+    let iconAlt = "";
+
     if (iconName) {
       iconName = iconName.toLowerCase();
+      iconName.split("-").forEach((item) => (iconAlt = iconAlt + " " + item));
     }
     if (itemName) {
       itemName.split("-").forEach((item) => (txt = txt + item + " "));
@@ -20,7 +23,7 @@ export default function SidebarItem({
         {iconName ? (
           <img
             src={`/public/icons/sidebar/${iconName}.svg`}
-            alt={iconName + "icon."}
+            alt={iconAlt + " icon."}
             className="w-6 h-6 object-cover"
           />
         ) : (
