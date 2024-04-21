@@ -18,7 +18,7 @@ export default function SidebarItem({
 
     return (
       <div
-        className={`flex gap-6 items-center px-5 py-3 ${isActive ? "bg-[#282828]" : ""} rounded-md`}
+        className={`flex gap-6 items-center px-5 py-3 ${isActive ? "bg-[#282828]" : ""} rounded-md cursor-pointer hover:bg-[#282828] transition select-none`}
       >
         {iconName ? (
           <img
@@ -33,6 +33,6 @@ export default function SidebarItem({
       </div>
     );
   } else {
-    console.log('You did not provide enough data :(')
+    console.log("You did not provide enough data :(");
   }
 }
