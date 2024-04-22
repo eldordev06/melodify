@@ -3,7 +3,7 @@ import { RiArrowDownSFill } from "react-icons/ri";
 
 export default function Header() {
   return (
-    <header className="flex flex-shrink-0 w-full h-fit justify-between pt-5 px-10 text-white">
+    <header className="flex w-full h-fit justify-between pt-5 px-10 text-white">
       <div className="flex gap-5">
         <button className="bg-[#131313] rounded-full p-2 h-fit w-fit">
           <IoIosArrowBack size={24} />
