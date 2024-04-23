@@ -1,5 +1,5 @@
 import Layout from "./components/Layout/Layout";
-import Rec from "./components/Rec";
+import Playlists from "./components/Playlists";
 import RecItem from "./components/RecItem";
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
       <Layout>
         <main className="flex-grow relative">
           <div className="absolute top-0 left-0 right-0 bottom-0 overflow-auto px-10 pb-10">
-            <Rec heading="Good morning" />
+            <Playlists heading="Good morning" />
             <section className="pt-[50px]">
               <h2 className="text-3xl mb-7">Shows you might like</h2>
               <div className="flex flex-wrap gap-[30px]">

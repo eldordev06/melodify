@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 import Playlist from "./Playlist";
 
-export default function Rec({ heading }) {
+export default function Playlists({ heading }) {
   return (
     <section className="mt-[50px]">
       <h1 className="text-4xl mb-7">{heading}</h1>
