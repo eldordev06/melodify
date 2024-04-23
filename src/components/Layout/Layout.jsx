@@ -8,7 +8,7 @@ export default function Layout({ children }) {
     <div className="flex flex-col h-screen w-screen text-xl font-medium">
       <div className="flex flex-grow">
         <Sidebar />
-        <div className="flex-grow h-full">
+        <div className="flex-grow h-full flex flex-col">
           <Header />
           {children}
         </div>
