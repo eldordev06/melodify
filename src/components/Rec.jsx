@@ -3,7 +3,7 @@ import RecItem from "./RecItem";
 
 export default function Rec({ heading }) {
   return (
-    <section className="pt-[50px]">
+    <section className="pt-[30px]">
       <h2 className="text-3xl mb-7">{heading}</h2>
       <div className="flex flex-wrap gap-[30px] justify-between">
         <RecItem
