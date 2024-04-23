@@ -5,7 +5,7 @@ export default function Playlists({ heading }) {
   return (
     <section className="mt-[50px]">
       <h1 className="text-4xl mb-7">{heading}</h1>
-      <div className="grid grid-cols-4 gap-5">
+      <div className="grid 2xl:grid-cols-4 xl:grid-cols-3 lg:grid-cols-2 gap-5">
         <Playlist
           iconPath="/public/icons/sidebar/liked-songs.svg"
           plName="Liked Songs"
