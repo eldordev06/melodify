@@ -5,7 +5,7 @@ export default function Rec({ heading }) {
   return (
     <section className="pt-[50px]">
       <h2 className="text-3xl mb-7">{heading}</h2>
-      <div className="flex flex-wrap gap-[30px]">
+      <div className="flex flex-wrap gap-[30px] justify-between">
         <RecItem
           imgPath="/public/images/red-bg-girl.png"
           altTxt="Girl looking to right on the red background"
