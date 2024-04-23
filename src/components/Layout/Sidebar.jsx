@@ -33,7 +33,7 @@ export default function Sidebar() {
           <SidebarItem itemName="Dance / Electronix Mix" />
           <SidebarItem itemName="EDM / Popular" />
         </ul>
-        <a href="/download" className="mt-16 mb-3.5">
+        <a href="/download" className="block mt-16 mb-3.5">
           <SidebarItem itemName="Install App" iconName="arrow-down" />
         </a>
       </div>
