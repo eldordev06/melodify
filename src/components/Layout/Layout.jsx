@@ -5,7 +5,7 @@ import Player from "./Player";
 
 export default function Layout({ children }) {
   return (
-    <div className="flex flex-col h-screen w-screen text-xl font-medium main-content-bg">
+    <div className="flex flex-col h-screen w-screen text-xl font-medium main-content-bg text-white">
       <div className="flex flex-grow">
         <Sidebar />
         <div className="flex-grow h-full flex flex-col">
