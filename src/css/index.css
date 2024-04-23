@@ -3,5 +3,17 @@
 @tailwind utilities;
 
 .main-content-bg {
-  background: linear-gradient(to bottom, #222222, #1F1F1F, #171717, #161616, #151515, #131313, #121212, #121212, #121212, #121212 0%);
+  background: linear-gradient(
+    to bottom,
+    #222222 0%,
+    #1f1f1f 10%,
+    #171717 20%,
+    #161616 30%,
+    #151515 40%,
+    #131313 50%,
+    #121212 60%,
+    #121212 70%,
+    #121212 80%,
+    #1212126f 100%
+  );
 }
