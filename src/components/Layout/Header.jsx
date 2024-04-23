@@ -15,7 +15,7 @@ export default function Header() {
       <button className="flex items-center gap-4 bg-[#0A0A0A] rounded-3xl p-0.5 pr-2.5 h-fit">
         <div className="gap-2 items-center flex">
           <img
-            src="/public/icons/avatar.png"
+            src="/public/images/avatar.png"
             alt="Avatar"
             className="w-[37px] h-[37px] rounded-full"
           />
