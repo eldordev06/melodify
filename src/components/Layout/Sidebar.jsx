@@ -20,6 +20,17 @@ export default function Sidebar() {
         <SidebarItem itemName="liked-songs" iconName="liked-songs" />
         <SidebarItem itemName="your-episodes" iconName="your-episodes" />
       </ul>
+      <ul>
+        <SidebarItem itemName="FAV" />
+        <SidebarItem itemName="Daily Mix 1" />
+        <SidebarItem itemName="Discover Weekly" />
+        <SidebarItem itemName="Malayalam" />
+        <SidebarItem itemName="Dance / Electronix Mix" />
+        <SidebarItem itemName="EDM / Popular" />
+      </ul>
+      <a href="/download" className="mt-16 mb-3.5">
+        <SidebarItem itemName="Install App" iconName="arrow-down" />
+      </a>
     </aside>
   );
 }
