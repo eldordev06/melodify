@@ -12,9 +12,6 @@ export default function Layout({ children }) {
           {children}
         </div>
       </div>
-      <div className="bg-[#282828] text-white h-24 text-xl flex items-center justify-center">
-        <span>PLAYER</span>
-      </div>
     </div>
   );
 }
