@@ -1,6 +1,7 @@
 /* eslint-disable react/prop-types */
 import Header from "./Header";
 import Sidebar from "./Sidebar";
+import Player from "./Player";
 
 export default function Layout({ children }) {
   return (
@@ -12,6 +13,7 @@ export default function Layout({ children }) {
           {children}
         </div>
       </div>
+      <Player />
     </div>
   );
 }
