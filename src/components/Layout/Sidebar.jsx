@@ -2,8 +2,8 @@ import SidebarItem from "../SidebarItem";
 
 export default function Sidebar() {
   return (
-    <aside className="bg-black w-[300px] h-full text-white px-2.5 relative">
-      <div className="absolute top-0 left-0 right-0 bottom-0 overflow-auto">
+    <aside className="bg-black w-[300px] h-full text-white relative">
+      <div className="absolute top-0 left-0 right-0 bottom-0 overflow-auto px-2.5">
         <a
           href="https://open.spotify.com"
           target="_blank"
