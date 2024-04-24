@@ -3,7 +3,7 @@ import SidebarItem from "../SidebarItem";
 export default function Sidebar() {
   return (
     <aside className="bg-black w-[300px] h-full relative">
-      <div className="absolute top-0 left-0 right-0 bottom-0 overflow-auto px-2.5">
+      <div className="absolute top-0 left-0 right-0 bottom-0 overflow-auto px-2.5 [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]">
         <a
           href="https://open.spotify.com"
           target="_blank"
