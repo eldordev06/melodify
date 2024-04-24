@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 export default function RecItem({ imgPath, altTxt, name, author }) {
   return (
-    <div className="w-[230px] p-5 bg-[#181818]">
+    <div className="w-[230px] p-5 bg-[#181818] hover:bg-[#252525] transition">
       <img
         src={imgPath}
         alt={altTxt}
