@@ -22,7 +22,7 @@ export default function SidebarItem({
       >
         {iconName ? (
           <img
-            src={`/public/icons/sidebar/${iconName}.svg`}
+            src={`/icons/sidebar/${iconName}.svg`}
             alt={iconAlt + " icon."}
             className="w-6 h-6 object-cover"
           />

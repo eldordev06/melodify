@@ -10,7 +10,7 @@ export default function Sidebar() {
           className="block p-5"
         >
           <img
-            src="/public/icons/sidebar/logo.svg"
+            src="/icons/sidebar/logo.svg"
             alt="Logo."
             className="w-[165px] h-[50px] object-contain"
           />
