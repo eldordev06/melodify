@@ -12,6 +12,9 @@ function Search() {
         <BrowseAllCard heading="Music" />
         <BrowseAllCard heading="Music" />
         <BrowseAllCard heading="Music" />
+        <BrowseAllCard heading="Music" />
+        <BrowseAllCard heading="Music" />
+        <BrowseAllCard heading="Music" />
       </div>
     </section>
   );
