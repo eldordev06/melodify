@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import SidebarItem from "../SidebarItem";
 
 export default function Sidebar() {
@@ -16,9 +17,15 @@ export default function Sidebar() {
           />
         </a>
         <ul className="mb-[52px]">
-          <SidebarItem itemName="home" iconName="home" isActive={true} />
-          <SidebarItem itemName="search" iconName="search" />
-          <SidebarItem itemName="library" iconName="library" />
+          <Link to={"/"}>
+            <SidebarItem itemName="home" iconName="home" isActive={true} />
+          </Link>
+          <Link to={"/search"}>
+            <SidebarItem itemName="search" iconName="search" />
+          </Link>
+          <Link to={"/library"}>
+            <SidebarItem itemName="library" iconName="library" />
+          </Link>
         </ul>
         <ul className="mb-10">
           <SidebarItem itemName="create-playlist" iconName="create-playlist" />

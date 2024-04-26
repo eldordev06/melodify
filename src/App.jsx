@@ -1,19 +1,14 @@
+import { Route, Routes } from "react-router-dom";
+import Home from "./components/pages/Home";
 import Layout from "./components/Layout/Layout";
-import Playlists from "./components/Playlists";
-import Rec from "./components/Rec";
 
 function App() {
   return (
-    <>
-      <Layout>
-        <main className="flex-grow relative">
-          <div className="absolute top-0 left-0 right-0 bottom-0 overflow-auto px-10 pb-10 [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]">
-            <Playlists heading="Good morning" />
-            <Rec heading="Shows you might like" />
-          </div>
-        </main>
-      </Layout>
-    </>
+    <Routes>
+      <Route path="/" element={<Layout />}>
+        <Route index element={<Home />} />
+      </Route>
+    </Routes>
   );
 }
 
