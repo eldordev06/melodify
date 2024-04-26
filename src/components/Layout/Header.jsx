@@ -1,5 +1,5 @@
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
-import { RiArrowDownSFill } from "react-icons/ri";
+import ProfileMenu from '../ProfileMenu';
 
 export default function Header() {
   return (
@@ -12,17 +12,7 @@ export default function Header() {
           <IoIosArrowForward size={24} />
         </button>
       </div>
-      <button className="flex items-center gap-4 bg-[#0A0A0A] rounded-3xl p-0.5 pr-2.5 h-fit">
-        <div className="gap-2 items-center flex">
-          <img
-            src="/images/avatar.png"
-            alt="Avatar"
-            className="w-[37px] h-[37px] rounded-full"
-          />
-          <span>Angel</span>
-        </div>
-        <RiArrowDownSFill size={24} />
-      </button>
+      <ProfileMenu />
     </header>
   );
 }
