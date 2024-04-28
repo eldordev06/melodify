@@ -9,7 +9,7 @@ function ProfileMenu() {
     <div className="relative">
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="flex items-center gap-4 bg-[#0A0A0A] rounded-3xl p-0.5 pr-2.5 h-fit"
+        className="flex items-center gap-4 bg-[#0A0A0A] rounded-3xl p-0.5 pr-2.5 h-fit hover:bg-[#1c1c1c] hover:border-[#404040] active:border-gray-500 border border-transparent"
       >
         <div className="gap-2 items-center flex">
           <img
