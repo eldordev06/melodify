@@ -23,15 +23,15 @@ function ProfileMenu() {
       </button>
 
       {isOpen ? (
-        <ul className="flex flex-col items-start rounded absolute top-full mt-2.5 right-0 z-10 bg-[#282828] w-60 overflow-hidden">
+        <ul className="flex flex-col items-start rounded absolute top-full mt-2.5 right-0 z-10 bg-[#282828] w-60 overflow-hidden cursor-pointer">
           <li className="w-full flex items-center justify-between hover:bg-[#3c3c3c] p-2.5 px-5">
             <span>Account</span>
             <RiExternalLinkLine />
           </li>
-          <li className="hover:bg-[#3c3c3c] p-2.5 px-5 w-full text-start">
+          <li className="hover:bg-[#3c3c3c] p-2.5 px-5 w-full text-start cursor-pointer">
             Profile
           </li>
-          <li className="hover:bg-[#3c3c3c] p-2.5 px-5 w-full text-start">
+          <li className="hover:bg-[#3c3c3c] p-2.5 px-5 w-full text-start cursor-pointer">
             Log out
           </li>
         </ul>
